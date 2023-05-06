@@ -14,7 +14,6 @@ import java.util.Arrays;
 public class MtiApplication {
 
 	public static void main(String[] args) {
-		System.setProperty("server.port", "8081");
 		SpringApplication.run(MtiApplication.class, args);
 	}
 
